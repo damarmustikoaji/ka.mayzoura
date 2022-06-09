@@ -125,81 +125,41 @@ body {
 }
 
 .slider ul > li:nth-child(1):after {
-    background-image: url("https://via.placeholder.com/300.png/f43347/f43347")
+    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k1.png")
 }
 
 .slider ul > li:nth-child(2):after {
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/37/6f/9f/376f9f3967ca3169427142e336531f63.jpg")
+    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k2.png")
 }
 
 .slider ul > li:nth-child(3):after {
-    background-image: url("https://via.placeholder.com/300.png/f6b10b/f6b10b")
+    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k3.png")
 }
 
 .slider ul > li:nth-child(4):after {
-    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/fb/2b/46/fb2b46c69c1d36ed5a51fe65b416fd7d.jpg")
+    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k4.png")
 }
 
 .slider ul > li:nth-child(5):after {
-    background-image: url("https://via.placeholder.com/300.png/3bce8a/3bce8a")
+    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k5.png")
 }
 
 .slider ul > li:nth-child(6):after {
-    background-image: url("https://24.media.tumblr.com/tumblr_m9rgidXuYO1r0kbvco1_500.jpg")
+    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k6.png")
 }
 
 .slider ul > li:nth-child(7):after {
-    background-image: url("http://68.media.tumblr.com/2d95889755cff507888f5632847da96f/tumblr_nrjfxbY8sR1uzcsjqo4_1280.jpg")
+    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k7.png")
 }
 
 .slider ul > li:nth-child(8):after {
-    background-image: url("http://data.whicdn.com/images/76372456/superthumb.jpg")
+    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k8.png")
 }
 
 .slider ul > li:nth-child(9):after {
-    background-image: url("http://68.media.tumblr.com/dba6cbf7cea9775d1251b47583f58511/tumblr_nbywyuJgGW1sr37qvo1_500.jpg")
+    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k9.png")
 }
 
 .slider ul > li:nth-child(10):after {
     background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k.png")
-}
-
-.slider ul > li:nth-child(1):before {
-    background-image: url("http://www.lovethispic.com/uploaded_images/118637-Fashion-Accessories.jpg")
-}
-
-.slider ul > li:nth-child(2):before {
-    background-image: url("https://78.media.tumblr.com/6ee1a4ed29b8930bd2153cb19dbd011a/tumblr_opttfuMy4s1tf6696o1_500.jpg")
-}
-
-.slider ul > li:nth-child(3):before {
-    background-image: url("http://www.lovethispic.com/uploaded_images/118637-Fashion-Accessories.jpg")
-}
-
-.slider ul > li:nth-child(4):before {
-    background-image: url("https://tatiailuridze.files.wordpress.com/2012/11/accessories-adorable-animal-book-bow-favim-com-132757.jpg")
-}
-
-.slider ul > li:nth-child(5):before {
-    background-image: url("https://raw.githubusercontent.com/damarmustikoaji/ka.mayzoura/master/images/k.png")
-}
-
-.slider ul > li:nth-child(6):before {
-    background-image: url("https://data.whicdn.com/images/280213700/superthumb.jpg")
-}
-
-.slider ul > li:nth-child(7):before {
-    background-image: url("https://i.pinimg.com/736x/e4/e6/f0/e4e6f069b967aedf983f1c0a29c8b83c--dark-flowers-rose-flowers.jpg")
-}
-
-.slider ul > li:nth-child(8):before {
-    background-image: url("https://data.whicdn.com/images/123836161/original.jpg")
-}
-
-.slider ul > li:nth-child(9):before {
-    background-image: url("http://up.azyya.com/do.php?imgf=1373433477424.jpg")
-}
-
-.slider ul > li:nth-child(10):before {
-    background-image: url("https://i.pinimg.com/736x/e6/91/cb/e691cb3d54d9d2af4eb8ac7362d024a9--gris-rose-pastel-flowers.jpg")
 }
