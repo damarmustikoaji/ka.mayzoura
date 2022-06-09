@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    padding: 0 10px;
+    background: #aa429e
+}
+
+.slider {
+    max-width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.slider h1 {
+    color: #eee;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 128px);
+    font-size: 50px;
+    font-weight: normal;
+    font-family: sans-serif
+}
+
+@media(max-width: 400px) {
+    .slider h1 {
+        font-size: 40px;
+        top: -60px;
+        left: calc(50% - 100px);
+    }
+}
+
+.slider ul {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 0;
+    margin-top: 15px;
+    list-style: none;
+    perspective: 2000px;
+    perspective-origin: 50% -200px;
+}
+
+.slider ul > li {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    transform-origin: center right;
+    transition: all 1s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    border: 10px solid rgba(229, 160, 228, .5);
+    border-radius: 25px 0 0 25px;
+    line-height: 400px;
+    text-align: center
+}
+
+.slider ul > li:before,
+.slider ul > li:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.slider ul > li:before {
+    border-radius: 15px 0 0 15px;
+}
+
+.slider ul > li:after {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    border-radius: 0 15px 15px 0;
+}
+
+.open {
+    transform: rotateY(180deg);
+}
+
+.slider > div {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: -75px
+}
+
+.slider .fa {
+    cursor: pointer;
+    color: #e5a0e4;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #e5a0e4;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    position: absolute
+}
+
+.slider .fa:first-of-type {
+    left: 0
+}
+
+.slider .fa:last-of-type {
+    right: 0
+}
+
+.slider .fa:hover,
+.slider .fa.active {
+    background: #e5a0e4;
+    color: #fff
+}
+
+.slider ul > li:nth-child(1):after {
+    background-image: url("https://via.placeholder.com/300.png/f43347/f43347")
+}
+
+.slider ul > li:nth-child(2):after {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/37/6f/9f/376f9f3967ca3169427142e336531f63.jpg")
+}
+
+.slider ul > li:nth-child(3):after {
+    background-image: url("https://via.placeholder.com/300.png/f6b10b/f6b10b")
+}
+
+.slider ul > li:nth-child(4):after {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/fb/2b/46/fb2b46c69c1d36ed5a51fe65b416fd7d.jpg")
+}
+
+.slider ul > li:nth-child(5):after {
+    background-image: url("https://via.placeholder.com/300.png/3bce8a/3bce8a")
+}
+
+.slider ul > li:nth-child(6):after {
+    background-image: url("https://24.media.tumblr.com/tumblr_m9rgidXuYO1r0kbvco1_500.jpg")
+}
+
+.slider ul > li:nth-child(7):after {
+    background-image: url("http://68.media.tumblr.com/2d95889755cff507888f5632847da96f/tumblr_nrjfxbY8sR1uzcsjqo4_1280.jpg")
+}
+
+.slider ul > li:nth-child(8):after {
+    background-image: url("http://data.whicdn.com/images/76372456/superthumb.jpg")
+}
+
+.slider ul > li:nth-child(9):after {
+    background-image: url("http://68.media.tumblr.com/dba6cbf7cea9775d1251b47583f58511/tumblr_nbywyuJgGW1sr37qvo1_500.jpg")
+}
+
+.slider ul > li:nth-child(10):after {
+    background-image: url("http://s9.favim.com/orig/131002/away-backround-beautiful-butterfly-Favim.com-967845.jpg")
+}
+
+.slider ul > li:nth-child(1):before {
+    background-image: url("http://www.lovethispic.com/uploaded_images/118637-Fashion-Accessories.jpg")
+}
+
+.slider ul > li:nth-child(2):before {
+    background-image: url("https://78.media.tumblr.com/6ee1a4ed29b8930bd2153cb19dbd011a/tumblr_opttfuMy4s1tf6696o1_500.jpg")
+}
+
+.slider ul > li:nth-child(3):before {
+    background-image: url("http://www.lovethispic.com/uploaded_images/118637-Fashion-Accessories.jpg")
+}
+
+.slider ul > li:nth-child(4):before {
+    background-image: url("https://tatiailuridze.files.wordpress.com/2012/11/accessories-adorable-animal-book-bow-favim-com-132757.jpg")
+}
+
+.slider ul > li:nth-child(5):before {
+    background-image: url("http://www.lovethispic.com/uploaded_images/118637-Fashion-Accessories.jpg")
+}
+
+.slider ul > li:nth-child(6):before {
+    background-image: url("https://data.whicdn.com/images/280213700/superthumb.jpg")
+}
+
+.slider ul > li:nth-child(7):before {
+    background-image: url("https://i.pinimg.com/736x/e4/e6/f0/e4e6f069b967aedf983f1c0a29c8b83c--dark-flowers-rose-flowers.jpg")
+}
+
+.slider ul > li:nth-child(8):before {
+    background-image: url("https://data.whicdn.com/images/123836161/original.jpg")
+}
+
+.slider ul > li:nth-child(9):before {
+    background-image: url("http://up.azyya.com/do.php?imgf=1373433477424.jpg")
+}
+
+.slider ul > li:nth-child(10):before {
+    background-image: url("https://i.pinimg.com/736x/e6/91/cb/e691cb3d54d9d2af4eb8ac7362d024a9--gris-rose-pastel-flowers.jpg")
+}
